@@ -10760,10 +10760,10 @@ react-textarea-autosize@^7.1.0:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
 
-react-typescript-rollup-npm@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-typescript-rollup-npm/-/react-typescript-rollup-npm-1.0.0.tgz#9364ed55ea45ec46a77448e5eff1b62374b14b2e"
-  integrity sha512-aXlmPJhiHD2r/386sd9YwrE6ttsZLnnCa7PVucDa9uOfdbabZyCFl6HsWzAL6MwvUY97EINcb2PtoIu+cscbuA==
+react-typescript-rollup-npm@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-typescript-rollup-npm/-/react-typescript-rollup-npm-1.1.0.tgz#f1c4d5d0a0f2d57c2f861c17102d4d7031a10cbe"
+  integrity sha512-J9gPzjrO8FROpm9o+3/+DhkrLbR3VFK2XlXin10aJncgv0iMRNaCrQIJXAfW3f7Tzg6QlgzFi8Rwm8UiBLNMtg==
 
 react@^16.12.0, react@^16.8.3:
   version "16.12.0"
