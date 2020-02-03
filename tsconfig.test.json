@@ -1,0 +1,18 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "src",
+    "declaration": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es6",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"]
+  }
+}

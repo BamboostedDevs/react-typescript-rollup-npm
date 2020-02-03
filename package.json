@@ -1,0 +1,84 @@
+{
+  "name": "react-typescript-rollup-npm",
+  "version": "1.0.3",
+  "description": "Boilerplate for React.js component libary (on npm) with typescript, rollup and Next.js testing.",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "jsnext:main": "build/index.es.js",
+  "repository": {
+    "type": "git",
+    "url": "beeinger/react-typescript-rollup-npm"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --coverage",
+    "storybook": "start-storybook",
+    "dev": "yarn build && yarn upgrade react-typescript-rollup-npm --latest && next"
+  },
+  "keywords": [],
+  "author": "bamboosted/beeinger",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@rollup/plugin-url": "^4.0.0",
+    "@storybook/react": "^5.3.10",
+    "@svgr/rollup": "^5.1.0",
+    "@testing-library/jest-dom": "^5.1.0",
+    "@testing-library/react": "^9.4.0",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "jest": "^25.1.0",
+    "next": "^9.2.1",
+    "np": "^5.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-typescript-rollup-npm": "^1.0.0",
+    "rollup": "^1.31.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-terser": "^5.1.3",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "ts-jest": "^25.1.0",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "react": "^16",
+    "react-dom": "^16"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "jsdom",
+    "testPathIgnorePatterns": [
+      "build/"
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.test.json"
+      }
+    }
+  },
+  "standard": {
+    "ignore": [
+      "node_modules/",
+      "build/"
+    ],
+    "globals": [
+      "describe",
+      "it",
+      "test",
+      "expect",
+      "afterAll",
+      "jest"
+    ]
+  }
+}
