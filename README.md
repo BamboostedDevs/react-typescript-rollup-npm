@@ -83,7 +83,7 @@ If the name you specified isn't taken You can easily publish your package with
 $ npm publish
 ```
 
-### But, it it is taken there are some options
+### But, if it is taken there are some options
 
 - #### change the name xD
   You can check name availability by running
