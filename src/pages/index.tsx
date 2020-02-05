@@ -1,4 +1,4 @@
 import React from "react";
-import { MyComponent } from "..";
+import { Example } from "..";
 
-export default () => <MyComponent />;
+export default () => <Example />;

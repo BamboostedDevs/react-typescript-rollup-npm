@@ -1,4 +1,4 @@
 import React from "react";
-import { MyComponent } from "../../build";
+import { Example } from "../../build";
 
-export default () => <MyComponent />;
+export default () => <Example />;

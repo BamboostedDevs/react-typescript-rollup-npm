@@ -2,7 +2,41 @@
 
 This repo is a boilerplate/template for [React.js](https://reactjs.org/ "React.js") component library, using [typescript](https://www.typescriptlang.org/ "typescript") (eg. \*.tsx files), [rollup.js](https://rollupjs.org/guide/en/ "rollup") for builds, ready for deploy on [npm](https://www.npmjs.com/ "npm"), featuring [Jest](https://jestjs.io/ "Jest") for testing as well as [Next.js](https://nextjs.org/ "Next.js") and [Storybook](https://storybook.js.org/ "Storybook") for developing.
 
-#### Proof of work - install this template dependency as [npm package](https://www.npmjs.com/package/react-typescript-rollup-npm "npm") and try importing _MyComponent_
+# CLI is here! - [create-lib-react](https://www.npmjs.com/package/create-lib-react "npm package")
+
+## Painfull process made extremely easy 🦋
+
+```
+$ yarn global add create-lib-react
+```
+
+then
+
+```
+$ create-lib-react
+```
+
+& follow the instructions
+
+---
+
+> ## Npm
+>
+> I recommend using [yarn](https://yarnpkg.com/ "Yarn") but you can change any command to npm for eg.
+>
+> ```
+> $ npm i -g create-lib-react
+> ```
+>
+> #
+
+---
+
+---
+
+# Demo
+
+#### Install this template dependency as [npm package](https://www.npmjs.com/package/react-typescript-rollup-npm "npm") and try importing _MyComponent_
 
 ```
 $ yarn add react-typescript-rollup-npm
@@ -12,14 +46,12 @@ and then
 
 ```javascript
 import React from "react";
-import { MyComponent } from "react-typescript-rollup-npm";
+import { Example } from "react-typescript-rollup-npm";
 
-export default () => <MyComponent />;
+export default () => <Example />;
 ```
 
-> ## Note
->
-> I recommend using [yarn](https://yarnpkg.com/ "Yarn") but you can change any command to npm for eg.
+> ## Npm
 >
 > ```
 > $ npm i --save react-typescript-rollup-npm
